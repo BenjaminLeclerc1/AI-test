@@ -1,7 +1,26 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers secrets
 .env
+
+# Base de données vectorielle
+vector_store/
+
+# Cache Python
 __pycache__/
 *.pyc
-.venv/
-.idea/
+*.pyo
+*.pyd
+
+# Autres fichiers système
 .DS_Store
-vector_store/ 
+Thumbs.db
+
+# Logs
+*.log
+
+# Dossier IDE (si tu utilises VS Code ou PyCharm)
+.vscode/
+.idea/
